@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+<[![CircleCI](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=shield&circle-token=<YOUR_STATUS_API_TOKEN>)](<LINK>)>
 
 ## Project Overview
 
