@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/ialjumah/udacityproject4_API/tree/main.svg?style=svg)](/https://circleci.com/gh/ialjumah/udacityproject4_API/tree/main)
+[![CircleCI](https://circleci.com/gh/ialjumah/udacityproject4/tree/main.svg?style=svg)](/https://circleci.com/gh/ialjumah/udacityproject4/tree/main)
 
 ## Project Overview
 
