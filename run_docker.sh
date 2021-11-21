@@ -1,21 +1,19 @@
 #!/usr/bin/env bash
 
-# This tags and uploads an image to Docker Hub
+
+## Complete the following steps to get Docker running locally
 
 # Step 1:
-# This is your Docker ID/path
-dockerpath=ibdiko/idt
-
-# Step 2
-# Run the Docker Hub container with kubernetes
-kubectl run container --image=$dockerpath
+# Build image and add a descriptive tag
+docker build --tag=idt
 
 
-# Step 3:
-# List kubernetes pods
-kubectl get pods
 
-# Step 4:
-# Forward the container port to a host
-yum install socat -y
-kubectl port-forward container 8000:80
+# Step 2: 
+# List docker images
+docker image ls
+
+
+# Step 3: 
+# Run flask app
+docker run -p 8000:80 idt
