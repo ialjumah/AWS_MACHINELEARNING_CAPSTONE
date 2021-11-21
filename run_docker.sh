@@ -4,7 +4,7 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=bashox/col
+dockerpath=ibdiko/idt
 
 # Step 2
 # Run the Docker Hub container with kubernetes
