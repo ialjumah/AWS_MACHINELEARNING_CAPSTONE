@@ -48,3 +48,5 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Test with circleci for ci/cd configuration to test and analyze the build
